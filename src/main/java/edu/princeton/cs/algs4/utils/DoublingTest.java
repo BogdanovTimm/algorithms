@@ -16,7 +16,7 @@
 
 package edu.princeton.cs.algs4.utils;
 
-import edu.princeton.cs.algs4.array.unsorted.algorithms.sum.ThreeSum;
+import edu.princeton.cs.algs4.array.unsorted.algorithms.sum.SlowThreeSum;
 
 /**
  *  The {@code DoublingTest} class provides a client for measuring
@@ -47,7 +47,7 @@ public class DoublingTest {
             a[i] = StdRandom.uniform(-MAXIMUM_INTEGER, MAXIMUM_INTEGER);
         }
         Stopwatch timer = new Stopwatch();
-        ThreeSum.count(a);
+        SlowThreeSum.count(a);
         return timer.elapsedTime();
     }
 
