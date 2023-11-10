@@ -1,32 +1,4 @@
-/******************************************************************************
- *  Compilation:  javac Quick3string.java
- *  Execution:    java Quick3string < input.txt
- *  Dependencies: StdIn.java StdOut.java 
- *  Data files:   https://algs4.cs.princeton.edu/51radix/words3.txt
- *                https://algs4.cs.princeton.edu/51radix/shells.txt
- *
- *  Reads string from standard input and 3-way string quicksort them.
- *
- *  % java Quick3string < shell.txt
- *  are
- *  by
- *  sea
- *  seashells
- *  seashells
- *  sells
- *  sells
- *  she
- *  she
- *  shells
- *  shore
- *  surely
- *  the
- *  the
- *
- *
- ******************************************************************************/
-
-package edu.princeton.cs.algs4.array.unsorted.algorithms.sort;
+package edu.princeton.cs.algs4.array.ofstrings.algorithms.sort;
 
 import edu.princeton.cs.algs4.utils.StdIn;
 import edu.princeton.cs.algs4.utils.StdOut;
@@ -36,12 +8,6 @@ import edu.princeton.cs.algs4.utils.StdRandom;
  *  The {@code Quick3string} class provides static methods for sorting an
  *  array of strings using 3-way radix quicksort.
  *  <p>
- *  For additional documentation,
- *  see <a href="https://algs4.cs.princeton.edu/51radix">Section 5.1</a> of
- *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
- *
- *  @author Robert Sedgewick
- *  @author Kevin Wayne
  */
 public class Quick3string {
     private static final int CUTOFF =  15;   // cutoff to insertion sort

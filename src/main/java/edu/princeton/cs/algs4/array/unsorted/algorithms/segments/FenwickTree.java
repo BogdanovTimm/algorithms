@@ -1,11 +1,3 @@
-/******************************************************************************
- *  Compilation:  javac FenwickTree.java
- *  Execution:    java FenwickTree
- *
- *  A Fenwick tree.
- *
- ******************************************************************************/
-
 package edu.princeton.cs.algs4.array.unsorted.algorithms.segments;
 
 import edu.princeton.cs.algs4.utils.StdIn;

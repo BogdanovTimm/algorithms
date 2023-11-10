@@ -1,19 +1,3 @@
-/******************************************************************************
- *  Compilation:  javac QuickBentleyMcIlroy.java
- *  Execution:    java QuickBentleyMcIlroy < input.txt
- *  Dependencies: StdOut.java StdIn.java
- *  Data files:   https://algs4.cs.princeton.edu/23quicksort/tiny.txt
- *                https://algs4.cs.princeton.edu/23quicksort/words3.txt
- *  
- *  Uses the Bentley-McIlroy 3-way partitioning scheme,
- *  chooses the partitioning element using Tukey's ninther,
- *  and cuts off to insertion sort.
- *
- *  Reference: Engineering a Sort Function by Jon L. Bentley
- *  and M. Douglas McIlroy. Softwae-Practice and Experience,
- *  Vol. 23 (11), 1249-1265 (November 1993).
- *
- ******************************************************************************/
 
 package edu.princeton.cs.algs4.array.unsorted.algorithms.sort;
 
@@ -179,27 +163,3 @@ public class QuickBentleyMcIlroy {
     }
 
 }
-
-/******************************************************************************
- *  Copyright 2002-2018, Robert Sedgewick and Kevin Wayne.
- *
- *  This file is part of algs4.jar, which accompanies the textbook
- *
- *      Algorithms, 4th edition by Robert Sedgewick and Kevin Wayne,
- *      Addison-Wesley Professional, 2011, ISBN 0-321-57351-X.
- *      http://algs4.cs.princeton.edu
- *
- *
- *  algs4.jar is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  algs4.jar is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with algs4.jar.  If not, see http://www.gnu.org/licenses.
- ******************************************************************************/
